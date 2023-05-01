@@ -1,3 +1,6 @@
+* {
+  margin: 0;
+}
 body {
   font-family: "Manrope", sans-serif;
   font-size: 1em;
@@ -38,12 +41,44 @@ li {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  padding: 20px 50px;
   background-color: white;
 }
 .icone-logo:hover {
   opacity: 0.5;
 }
 
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* padding: 40px 0px; */
+}
+.main-section {
+  padding: 40px 80px 40px 80px;
+}
+.index-introduction-card {
+  padding: 40px;
+}
+.index-card-portrait {
+  padding: 20px 0px;
+}
+.presentation-text {
+  padding: 20px 0px;
+}
+
+.a-propos-introduction-card {
+  padding: 50px;
+  border-right: 1px solid #8e86b5;
+  border-bottom: 1px solid #8e86b5;
+}
+.services-title {
+  margin-top: 20px;
+}
+.services-list {
+  margin-top: 10px;
+}
 .contact-link,
 .portfolio-link {
   background: linear-gradient(#8e86b5, #acaeed);
@@ -56,9 +91,4 @@ li {
   border-radius: 50px;
   color: white;
   text-decoration: none;
-}
-
-.contenu-container {
-  border-right: 1px solid #8e86b5;
-  border-bottom: 1px solid #8e86b5;
 }
