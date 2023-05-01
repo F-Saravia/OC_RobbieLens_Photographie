@@ -1,40 +1,33 @@
 body {
+  font-family: "Manrope", sans-serif;
+  font-size: 1em;
   background-color: #1f2039;
+}
+
+a {
+  color: #242424;
+  text-decoration: none;
+}
+
+em {
+  color: #a5b4fc;
+  font-style: normal;
 }
 
 h1 {
   font-size: 3.5em;
+  color: #a5b4fc;
   font-family: "Montserrat", sans-serif;
-  color: #a5b4fc;
 }
+
 h2 {
-  background-color: darkblue;
   color: #f9f8ff;
 }
 
-a {
-  font-family: "Manrope", sans-serif;
-  font-size: 1em;
-  text-decoration: none;
-  color: black;
-}
-
-p {
-  font-family: "Manrope", sans-serif;
-  font-size: 1.1em;
-  background-color: darkblue;
-  color: #f9f8ff;
-}
-
+p,
 li {
-  font-family: "Manrope", sans-serif;
-  font-size: 1em;
-  background-color: darkblue;
+  font-size: 1.1em;
   color: #f9f8ff;
-}
-
-.important {
-  color: #a5b4fc;
 }
 
 .en-tete,
@@ -42,15 +35,11 @@ li {
   background-color: white;
 }
 
-.en-tete a,
-.pied-de-page a {
-  color: #242424;
-}
-
 .contact-link,
 .portfolio-link {
-  background: linear-gradient(90deg, #8e86b5, #acaeed);
+  background: linear-gradient(#8e86b5, #acaeed);
 }
+
 .contact-link a,
 .portfolio-link a {
   color: white;
