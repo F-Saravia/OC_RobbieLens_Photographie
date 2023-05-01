@@ -38,9 +38,15 @@ li {
 .contact-link,
 .portfolio-link {
   background: linear-gradient(#8e86b5, #acaeed);
+  border-radius: 50px;
 }
 
 .contact-link a,
 .portfolio-link a {
   color: white;
+}
+
+.contenu {
+  border-right: 1px solid #8e86b5;
+  border-bottom: 1px solid #8e86b5;
 }
