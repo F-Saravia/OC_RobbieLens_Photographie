@@ -1,7 +1,15 @@
+body {
+  background-color: #1f2039;
+}
+
 h1 {
   font-size: 3.5em;
   font-family: "Montserrat", sans-serif;
   color: #a5b4fc;
+}
+h2 {
+  background-color: darkblue;
+  color: #f9f8ff;
 }
 
 a {
@@ -14,13 +22,27 @@ a {
 p {
   font-family: "Manrope", sans-serif;
   font-size: 1.1em;
+  background-color: darkblue;
+  color: #f9f8ff;
 }
 
 li {
   font-family: "Manrope", sans-serif;
   font-size: 1em;
+  background-color: darkblue;
+  color: #f9f8ff;
 }
 
 .important {
   color: #a5b4fc;
+}
+
+.en-tete,
+.pied-de-page {
+  background-color: white;
+}
+
+.en-tete a,
+.pied-de-page a {
+  color: #242424;
 }
