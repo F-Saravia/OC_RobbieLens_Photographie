@@ -46,3 +46,12 @@ li {
 .pied-de-page a {
   color: #242424;
 }
+
+.contact-link,
+.portfolio-link {
+  background: linear-gradient(90deg, #8e86b5, #acaeed);
+}
+.contact-link a,
+.portfolio-link a {
+  color: white;
+}
