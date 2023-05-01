@@ -8,6 +8,9 @@ a {
   color: #242424;
   text-decoration: none;
 }
+a:hover {
+  text-decoration: underline;
+}
 
 em {
   color: #a5b4fc;
@@ -34,19 +37,25 @@ li {
 .pied-de-page {
   background-color: white;
 }
+.icone-logo:hover {
+  opacity: 0.5;
+}
 
 .contact-link,
 .portfolio-link {
   background: linear-gradient(#8e86b5, #acaeed);
   border-radius: 50px;
-}
-
-.contact-link a,
-.portfolio-link a {
   color: white;
 }
+.contact-link:hover,
+.portfolio-link:hover {
+  background: linear-gradient(#696484, #8788ba);
+  border-radius: 50px;
+  color: white;
+  text-decoration: none;
+}
 
-.contenu {
+.contenu-container {
   border-right: 1px solid #8e86b5;
   border-bottom: 1px solid #8e86b5;
 }
