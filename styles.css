@@ -1,15 +1,18 @@
 * {
   margin: 0;
+  /* color: #1b1c2b;
+  color: #ece6e1; */
 }
 
 body {
   font-family: "Manrope", sans-serif;
   font-size: 1em;
-  background-color: #1f2039;
+  background-color: #1b1c2b;
 }
 
 a {
-  color: #242424;
+  color: #1b1c2b;
+  font-weight: 500;
   text-decoration: none;
 }
 
@@ -25,20 +28,20 @@ h1 {
 }
 
 h2 {
-  color: #f9f8ff;
+  color: #ece6e1;
 }
 
 p,
 li {
   font-size: 1.1em;
-  color: #f9f8ff;
+  color: #ece6e1;
 }
 
 header,
 footer {
   display: flex;
   justify-content: space-between;
-  background-color: white;
+  background-color: #ece6e1;
   padding: 20px 50px;
 }
 header .lien-icone,
@@ -56,7 +59,7 @@ footer .social-media {
 
 .cta {
   background: linear-gradient(#8e86b5, #acaeed);
-  color: white;
+  color: #ece6e1;
   border-radius: 50px;
   padding: 20px 30px;
 }
@@ -95,4 +98,76 @@ section {
 .a-propos-main {
   width: 50%;
   margin: auto;
+}
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-section-container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+
+  width: fit-content;
+  background-image: linear-gradient(
+      to right,
+      #8e86b5 0%,
+      #acaeed 15%,
+      transparent 15%,
+      transparent 85%,
+      #acaeed 85%,
+      #8e86b5 100%
+    ),
+    linear-gradient(
+      to right,
+      #8e86b5 0%,
+      #acaeed 15%,
+      transparent 15%,
+      transparent 85%,
+      #acaeed 85%,
+      #8e86b5 100%
+    ),
+    linear-gradient(
+      to bottom,
+      #8e86b5 0%,
+      #acaeed 20%,
+      transparent 20%,
+      transparent 80%,
+      #acaeed 80%,
+      #8e86b5 100%
+    ),
+    linear-gradient(
+      to bottom,
+      #8e86b5 0%,
+      #acaeed 20%,
+      transparent 20%,
+      transparent 80%,
+      #acaeed 80%,
+      #8e86b5 100%
+    );
+  background-repeat: no-repeat;
+  background-size: 100% 1px, 100% 1px, 1px 100%, 1px 100%;
+  background-position: top, bottom, left, right;
+}
+.hero-section .presentation-callToAction-container,
+.hero-section .portrait-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 40px;
+  justify-content: center;
+  align-items: space-around;
+  text-align: center;
+}
+
+.dernierProjet-section {
+  display: flex;
+
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
