@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  padding: 0;
   /* color: #1b1c2b;
   color: #ece6e1; */
 }
@@ -8,6 +9,11 @@ body {
   font-family: "Manrope", sans-serif;
   font-size: 1em;
   background-color: #1b1c2b;
+}
+.page-container {
+  max-width: 1950px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 a {
@@ -104,6 +110,7 @@ section {
   justify-content: center;
   align-items: center;
 }
+
 .hero-section-container {
   display: flex;
   flex-wrap: wrap-reverse;
@@ -166,7 +173,22 @@ section {
 
 .dernierProjet-section {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ece6e1;
+}
 
+.dernierProjet-section h2 {
+  color: #1b1c2b;
+  font-size: 3em;
+  font-family: "Montserrat", sans-serif;
+  padding: 40px;
+}
+.dernierProjet-photos-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1360px;
   gap: 20px;
   justify-content: center;
   align-items: center;
