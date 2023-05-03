@@ -1,0 +1,88 @@
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section-container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+
+  width: fit-content;
+  background-image: linear-gradient(
+      to right,
+      #8e86b5 0%,
+      #acaeed 15%,
+      transparent 15%,
+      transparent 85%,
+      #acaeed 85%,
+      #8e86b5 100%
+    ),
+    linear-gradient(
+      to right,
+      #8e86b5 0%,
+      #acaeed 15%,
+      transparent 15%,
+      transparent 85%,
+      #acaeed 85%,
+      #8e86b5 100%
+    ),
+    linear-gradient(
+      to bottom,
+      #8e86b5 0%,
+      #acaeed 20%,
+      transparent 20%,
+      transparent 80%,
+      #acaeed 80%,
+      #8e86b5 100%
+    ),
+    linear-gradient(
+      to bottom,
+      #8e86b5 0%,
+      #acaeed 20%,
+      transparent 20%,
+      transparent 80%,
+      #acaeed 80%,
+      #8e86b5 100%
+    );
+  background-repeat: no-repeat;
+  background-size: 100% 1px, 100% 1px, 1px 100%, 1px 100%;
+  background-position: top, bottom, left, right;
+}
+.hero-section .presentation-callToAction-container,
+.hero-section .portrait-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 40px;
+  justify-content: center;
+  align-items: space-around;
+  text-align: center;
+}
+
+.dernierProjet-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ece6e1;
+}
+
+.dernierProjet-section h2 {
+  color: #1b1c2b;
+  font-size: 3em;
+  font-family: "Montserrat", sans-serif;
+  padding: 40px;
+}
+.dernierProjet-photos-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1360px;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
