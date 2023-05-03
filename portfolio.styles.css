@@ -1,14 +1,39 @@
+/* color: #1b1c2b;
+  color: #ece6e1; */
+
 .portfolio-section-photos {
-  background-color: white;
+  background-color: #ece6e1;
 }
 .portfolio-section-photos h2 {
-  color: #242424;
-  margin-bottom: 80px;
+  color: #1b1c2b;
+  font-size: 2em;
+  margin: 80px 0px 20px 0px;
+  padding: 4px 0px;
+  background-image: linear-gradient(to right, #1b1c2b, #acaeed);
+  background-repeat: no-repeat;
+  background-size: 10% 1.5px;
+  background-position: bottom left;
 }
+
+.grid-paysages {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 300px);
+  gap: 15px;
+}
+
+.grid-portraits {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 300px);
+  gap: 15px;
+}
+
 .grid-paysages img,
 .grid-portraits img {
   width: 100%;
-  height: 100%; /* Même si vous ne connaissez pas cette
+  height: 100%;
+  /* Même si vous ne connaissez pas cette
 propriété, vous en aurez besoin pour permettre aux images de respecter les
 dimensions de la grid CSS */
   object-fit: cover;
