@@ -46,20 +46,19 @@ li {
   color: #ece6e1;
 }
 
-header,
+header nav,
 footer {
   display: flex;
   justify-content: space-between;
   background-color: #ece6e1;
   padding: 20px 50px;
 }
-header .lien-icone,
-footer .lien-icone {
+.lien-icone-container {
   flex: 1;
 }
 
-header nav,
-footer .social-media {
+.navigation-links-container,
+.social-media {
   display: flex;
   gap: 20px;
   justify-content: center;
