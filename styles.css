@@ -67,9 +67,11 @@ footer {
   background-color: #dfd7d0;
   padding: 20px 50px;
 }
-
 .lien-icone-container {
   flex: 1;
+}
+.lien-icone:hover {
+  opacity: 0.5;
 }
 
 .navigation-links-container,
@@ -94,10 +96,28 @@ footer {
   text-decoration: none;
 }
 
-.lien-icone:hover {
-  opacity: 0.5;
-}
-
 section {
   padding: 80px;
+}
+
+.lien-photo-container {
+  position: relative;
+}
+
+.photo-hoverDisplay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  color: #ece6e1;
+  background-color: rgba(27, 28, 43, 0.7);
+}
+
+.lien-photo-container:hover .photo-hoverDisplay {
+  display: flex;
 }
