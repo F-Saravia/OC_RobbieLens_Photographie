@@ -1,8 +1,15 @@
+/* 
+  color: #1b1c2b;
+  color: #1b1c2b;
+  color: #1b1c2b;
+  
+  color: #ece6e1;
+  color: #e5deda;
+  color: #dfd7d0;
+   */
 * {
   margin: 0;
   padding: 0;
-  /* color: #1b1c2b;
-  color: #ece6e1; */
 }
 
 body {
@@ -32,6 +39,7 @@ em {
 
 h1 {
   font-size: 3.5em;
+  line-height: 120%;
   color: #a5b4fc;
   font-family: "Montserrat", sans-serif;
 }
@@ -46,13 +54,20 @@ li {
   color: #ece6e1;
 }
 
-header nav,
+.sticky-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.sticky-navbar,
 footer {
   display: flex;
   justify-content: space-between;
-  background-color: #ece6e1;
+  background-color: #dfd7d0;
   padding: 20px 50px;
 }
+
 .lien-icone-container {
   flex: 1;
 }
@@ -66,10 +81,12 @@ footer {
 }
 
 .callToAction {
+  font-size: 1.3em;
+  width: fit-content;
+  padding: 20px 40px;
   background: linear-gradient(#8e86b5, #acaeed);
   color: #ece6e1;
   border-radius: 50px;
-  padding: 20px 30px;
 }
 
 .callToAction:hover {

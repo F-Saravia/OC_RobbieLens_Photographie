@@ -1,11 +1,47 @@
+.banner {
+  width: 66%;
+  margin: auto;
+}
+.banner .images-container {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  object-fit: cover;
+  padding: 40px;
+
+  background-image: linear-gradient(to bottom right, #4c4e71, #1c1e41);
+  background-repeat: no-repeat;
+  background-size: 66% 80%;
+  background-position: bottom right;
+}
+.images-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .main-container {
-  width: 50%;
+  width: 66%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carre {
   margin: auto;
 }
 
 .carre-contenu {
-  border-right: 1px solid #8e86b5;
-  border-bottom: 1px solid #8e86b5;
+  background-image: linear-gradient(to right, #acaeed, #8e86b5),
+    linear-gradient(to bottom, #acaeed, #8e86b5);
+  background-repeat: no-repeat;
+  background-size: 40% 1.5px, 1.5px 100%;
+  background-position: bottom right;
+
   padding: 50px;
 }
 
@@ -14,5 +50,11 @@
 }
 
 .carre-contenu ul {
+  margin-left: 30px;
   margin-top: 30px;
+}
+
+.carre .callToAction {
+  display: block;
+  margin: 40px auto;
 }

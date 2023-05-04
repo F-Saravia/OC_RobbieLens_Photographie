@@ -10,8 +10,6 @@
   gap: 40px;
   justify-content: center;
   align-items: center;
-
-  width: fit-content;
   background-image: linear-gradient(
       to right,
       #8e86b5 0%,
@@ -52,31 +50,29 @@
   background-size: 100% 1px, 100% 1px, 1px 100%, 1px 100%;
   background-position: top, bottom, left, right;
 }
-.hero-section .presentation-callToAction-container,
-.hero-section .portrait-container {
+
+.hero-section-container .presentation-callToAction-container,
+.hero-section-container .portrait-container {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   gap: 40px;
   padding: 40px;
-  justify-content: center;
-  align-items: space-around;
+  align-items: center;
   text-align: center;
 }
 
 .dernierProjet-section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  gap: 40px;
   align-items: center;
-  background-color: #ece6e1;
+  background-color: #e5deda;
 }
 
 .dernierProjet-section h2 {
   color: #1b1c2b;
   font-size: 3em;
   font-family: "Montserrat", sans-serif;
-  padding: 40px;
 }
 .dernierProjet-photos-container {
   display: flex;
