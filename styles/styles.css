@@ -19,8 +19,7 @@ body {
 }
 .page-container {
   max-width: 1950px;
-  margin: 0 auto;
-  padding: 0px;
+  margin: auto;
 }
 
 a {
