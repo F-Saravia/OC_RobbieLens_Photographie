@@ -1,82 +1,21 @@
 /* 
-  color: #1b1c2b;
-  color: #1b1c2b;
-  color: #1b1c2b;
+  color: rgb(57, 68, 99); #394463;
+  color: rgb(42, 48, 71); #2a3047;
+  color: rgb(27, 28, 43); #1b1c2b;
   
-  color: #ece6e1;
-  color: #e5deda;
-  color: #dfd7d0;
-  color: #1b1c2b;
-  background-color: #e5deda;
+  color: rgb(172, 174, 237); #acaeed;
+  color: rgb(157, 154, 209); #9d9ad1;
+  color: rgb(142, 134, 181); #8e86b5; 
+  
+  
+  color: rgb(244, 242, 246); #f4f2f6;
+  color: rgb(229, 222, 218); #e5deda ;
+  color: rgb(214, 212, 190); #d6d4be ;
+  
+  color : rgb(180, 200, 255); #b4c8ff;
+  color : rgb(165, 180, 252); #a5b4fc;
+  color : rgb(150, 160, 224); #96a0e0;
    */
-
-header {
-  background-color: #e5deda;
-  padding: 40px;
-}
-.banner {
-  width: 66%;
-  margin: auto;
-}
-.banner .images-container {
-  width: 80%;
-  margin: auto;
-  padding: 40px;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 20px;
-  object-fit: cover;
-
-  /* background-image: linear-gradient(to bottom right, #4c4e71, #1c1e41);
-  background-repeat: no-repeat;
-  background-size: 66% 80%;
-  background-position: bottom right; */
-  background-image: linear-gradient(
-      to right,
-      #8e86b5 0%,
-      #acaeed 15%,
-      transparent 15%,
-      transparent 85%,
-      #acaeed 85%,
-      #8e86b5 100%
-    ),
-    linear-gradient(
-      to right,
-      #8e86b5 0%,
-      #acaeed 15%,
-      transparent 15%,
-      transparent 85%,
-      #acaeed 85%,
-      #8e86b5 100%
-    ),
-    linear-gradient(
-      to bottom,
-      #8e86b5 0%,
-      #acaeed 20%,
-      transparent 20%,
-      transparent 80%,
-      #acaeed 80%,
-      #8e86b5 100%
-    ),
-    linear-gradient(
-      to bottom,
-      #8e86b5 0%,
-      #acaeed 20%,
-      transparent 20%,
-      transparent 80%,
-      #acaeed 80%,
-      #8e86b5 100%
-    );
-  background-repeat: no-repeat;
-  background-size: 100% 1px, 100% 1px, 1px 100%, 1px 100%;
-  background-position: top, bottom, left, right;
-}
-.images-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 
 .carre {
   width: 80%;
@@ -84,22 +23,26 @@ header {
   padding: 40px;
 }
 
+.carre h1 {
+  text-align: center;
+}
+
 .carre-contenu {
-  background-image: linear-gradient(to right, #acaeed, #8e86b5),
-    linear-gradient(to bottom, #acaeed, #8e86b5);
+  background-image: linear-gradient(to right, #b4c8ff, #96a0e0),
+    linear-gradient(to bottom, #b4c8ff, #96a0e0);
   background-repeat: no-repeat;
-  background-size: 33% 1.5px, 1.5px 33%;
+  background-size: 100% 1.5px, 1.5px 100%;
   background-position: bottom right;
-  padding: 50px;
+  padding: 40px;
 }
 
 .carre-contenu h2 {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .carre-contenu ul {
   margin-left: 30px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .carre .callToAction {
@@ -107,14 +50,9 @@ header {
   margin: 40px auto;
 }
 
-.tarifs-section {
-  margin: auto;
-  color: #1b1c2b;
-  background-color: #e5deda;
-}
-
 .tarifs-section table {
-  margin: auto;
+  width: 100%;
+  color: #e5deda;
   border-collapse: collapse;
 }
 
@@ -125,11 +63,11 @@ header {
 }
 
 .tarifs-section th {
-  background-color: #acaeed;
+  border: 1px solid #8e86b5;
   padding: 20px;
 }
 .tarifs-section td {
-  border: 1px solid #acaeed;
-
-  padding: 40px;
+  border: 1px solid #8e86b5;
+  text-align: center;
+  padding: 80px;
 }

@@ -1,3 +1,22 @@
+/* 
+  color: rgb(57, 68, 99); #394463;
+  color: rgb(42, 48, 71); #2a3047;
+  color: rgb(27, 28, 43); #1b1c2b;
+  
+  color: rgb(172, 174, 237); #acaeed;
+  color: rgb(157, 154, 209); #9d9ad1;
+  color: rgb(142, 134, 181); #8e86b5; 
+  
+  
+  color: rgb(244, 242, 246); #f4f2f6;
+  color: rgb(229, 222, 218); #e5deda ;
+  color: rgb(214, 212, 190); #d6d4be ;
+  
+  color : rgb(180, 200, 255); #b4c8ff;
+  color : rgb(165, 180, 252); #a5b4fc;
+  color : rgb(150, 160, 224); #96a0e0;
+   */
+
 .hero-section {
   display: flex;
   justify-content: center;
@@ -12,39 +31,39 @@
   align-items: center;
   background-image: linear-gradient(
       to right,
-      #8e86b5 0%,
-      #acaeed 15%,
-      transparent 15%,
-      transparent 85%,
-      #acaeed 85%,
-      #8e86b5 100%
+      #96a0e0 0%,
+      #b4c8ff 3%,
+      transparent 3%,
+      transparent 97%,
+      #b4c8ff 97%,
+      #96a0e0 100%
     ),
     linear-gradient(
       to right,
-      #8e86b5 0%,
-      #acaeed 15%,
-      transparent 15%,
-      transparent 85%,
-      #acaeed 85%,
-      #8e86b5 100%
+      #96a0e0 0%,
+      #b4c8ff 3%,
+      transparent 3%,
+      transparent 97%,
+      #b4c8ff 97%,
+      #96a0e0 100%
     ),
     linear-gradient(
       to bottom,
-      #8e86b5 0%,
-      #acaeed 20%,
-      transparent 20%,
-      transparent 80%,
-      #acaeed 80%,
-      #8e86b5 100%
+      #96a0e0 0%,
+      #b4c8ff 3%,
+      transparent 3%,
+      transparent 97%,
+      #b4c8ff 97%,
+      #96a0e0 100%
     ),
     linear-gradient(
       to bottom,
-      #8e86b5 0%,
-      #acaeed 20%,
-      transparent 20%,
-      transparent 80%,
-      #acaeed 80%,
-      #8e86b5 100%
+      #96a0e0 0%,
+      #b4c8ff 3%,
+      transparent 3%,
+      transparent 97%,
+      #b4c8ff 97%,
+      #96a0e0 100%
     );
   background-repeat: no-repeat;
   background-size: 100% 1px, 100% 1px, 1px 100%, 1px 100%;
@@ -66,7 +85,7 @@
   flex-direction: column;
   gap: 40px;
   align-items: center;
-  background-color: #e5deda;
+  background-image: linear-gradient(to top right, #e5deda, #dfd7d0);
 }
 
 .dernierProjet-section h2 {
