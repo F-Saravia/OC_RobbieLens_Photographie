@@ -112,6 +112,10 @@ li {
 section {
   padding: 80px;
 }
+.section-container {
+  margin: auto;
+  width: 59%;
+}
 
 .lien-photo-container {
   position: relative;

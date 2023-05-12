@@ -18,9 +18,7 @@
    */
 
 .carre {
-  width: 80%;
   margin: auto;
-  padding: 40px;
 }
 
 .carre h1 {
@@ -47,7 +45,7 @@
 
 .carre .callToAction {
   display: block;
-  margin: 40px auto;
+  margin: 40px auto 0px auto;
 }
 
 .tarifs-section table {
@@ -69,5 +67,5 @@
 .tarifs-section td {
   border: 1px solid #8e86b5;
   text-align: center;
-  padding: 80px;
+  padding: 50px;
 }
